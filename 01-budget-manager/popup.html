@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Budget Manager</title>
+  </head>
+  <body>
+    <div class="topContainer container">
+      <img src="img.png" alt="img" />
+      <h2>Budget Manager</h2>
+    </div>
+
+    <br />
+
+    <div class="bottomContainer container">
+      <h2>Total Spend:</h2>
+      <span id="total">0 USD</span>
+
+      <hr />
+
+      <div class="inputDiv">
+        <input type="text" id="amount" placeholder="enter an amount" />
+      </div>
+
+      <div class="inputDiv">
+        <input type="submit" id="reset" class="btns" value="Reset" />
+        <input type="submit" id="spend" class="btns" value="Spend" />
+      </div>
+    </div>
+  </body>
+
+  <script src="popup.js"></script>
+</html>
